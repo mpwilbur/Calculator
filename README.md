@@ -10,8 +10,7 @@ Open main.py and run.
 
 ## Code Structure
 main.py is the main Python file. It includes all calculator functionality.
-main.py imports the user interface from the calculator_interface.py file.
-main.py imports the top-down parser from the calculate.py file.
+main.py imports the user interface from the calculator_interface.py file and imports the top-down parser from the calculate.py file.
 
 
 
