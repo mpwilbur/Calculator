@@ -20,6 +20,7 @@ class Calculator_Class(calculator_interface.Ui_MainWindow, QtWidgets.QMainWindow
 		self.BUTTON_SEVEN.clicked.connect(lambda: self.display_screen('7'))
 		self.BUTTON_EIGHT.clicked.connect(lambda: self.display_screen('8'))
 		self.BUTTON_NINE.clicked.connect(lambda: self.display_screen('9'))
+		self.BUTTON_PERIOD.clicked.connect(lambda: self.display_screen('.'))
 
 		self.BUTTON_LPAR.clicked.connect(lambda: self.display_screen('('))
 		self.BUTTON_RPAR.clicked.connect(lambda: self.display_screen(')'))
